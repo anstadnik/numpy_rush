@@ -1,0 +1,29 @@
+ 3947  docker daemon
+ 3948  docker help
+ 3949  docker build Dockerfile
+ 3950  ..
+ 3951  vim resources/Dockerfile
+ 3952* ls
+ 3953* docker build -t resources
+ 3954* docker build -t resources .
+ 3955* cd resources
+ 3956* docker build -t Dockerfile .
+ 3957* docker build -t numpy_rush .
+ 3958* sudo docker daemon
+ 3959* docker info
+ 3960* docker
+ 3961* sudo docker info
+ 3962* sudo docker build -t numpy_rush .
+ 3963  ls
+ 3964* sudo docker info
+ 3965* sudo docker ls
+ 3966* sudo docker image ls
+ 3967  sudo docker build -t numpy_rush .
+ 3968  vim resources/
+ 3969  vim resources/Dockerfile
+ 3970* ls
+ 3971* vim nohup.out
+ 3972* rm -rf nohup.out
+ 3973* mkdir notebooks
+ 3974* docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush  
+ 3975* sudo docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush  
